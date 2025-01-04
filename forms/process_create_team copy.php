@@ -106,8 +106,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($success) {
             echo "<script>
                     Swal.fire({
-                        title: 'Success!',
-                        text: 'The team was created successfully.',
+                        title: 'สำเร็จ!',
+                        text: 'การสร้างทีมสำเร็จ.',
                         icon: 'success',
                         confirmButtonText: 'OK'
                     }).then((result) => {

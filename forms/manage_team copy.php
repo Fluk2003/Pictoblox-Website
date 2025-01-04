@@ -185,14 +185,14 @@ try {
     <script>
         function confirmDelete(team_id, teacher_id) {
             Swal.fire({
-                title: 'Are you sure?',
-                text: "This team will be permanently deleted!",
+                title: 'คุณแน่ใจที่จะลบหรือไม่?',
+                text: "ทีมนี้จะถูกลบอย่างถาวร!",
                 icon: 'warning',
                 showCancelButton: true,
                 confirmButtonColor: '#3085d6',
                 cancelButtonColor: '#d33',
-                confirmButtonText: 'Yes, delete it!',
-                cancelButtonText: 'Cancel'
+                confirmButtonText: 'ลบ!',
+                cancelButtonText: 'ยกเลิก'
             }).then((result) => {
                 if (result.isConfirmed) {
                     window.location.href = 'delete_team_process.php?team_id=' + team_id + '&teacher_id=' + teacher_id;
