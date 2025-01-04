@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 // Debug: Dump session to check if it's set correctly
 
 

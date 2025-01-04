@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     // กำหนดที่เก็บไฟล์ที่อัปโหลด
-    $targetDir = "../../forms/uploads/";
+    $targetDir = "../uploads/";
 
     // ตรวจสอบว่ามีการเลือกไฟล์หรือไม่
     if (isset($_FILES["certificate"])) {
