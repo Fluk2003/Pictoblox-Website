@@ -3,6 +3,7 @@
 
 session_start();
 session_destroy();
+echo"hello"
 
 require_once 'connectDB/configsdb.php';
 $sqlSchool = $conn->prepare("SELECT * FROM ptb_school WHERE school_name != 'admin'");
